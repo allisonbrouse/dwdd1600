@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Budget Vacations: Home</title>
+        <link rel="stylesheet" href=vaca.css>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about Budget Vacations">
+        <meta name="author" content="Allison Brouse">
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <div>
+                <h1>Budget Vacations</h1>
+                <p>Your Dream Vacation at Your Dream Price</p>
+            </div>
+        </header>
+        <!-- Start of the navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Destinations</a></li>
+                <li><a href="package.html">Packages</a></li>
+                  <li><a href="ex.html">Excursions</a></li>
+                <li class ="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+            
+        </nav>
+        <!-- Start of page content -->
+        <main>
+ <h1>Contact Us for Booking</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+        <fieldset>
+        <legend>Customer Information</legend>
+       <label>First Name*<input type="text" name="fname" required></label> 
+        <label>Last Name*<input type="text" name="lname" required></label> 
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="100-555-1234"></label> 
+         <label>Email*<input type="email" name="email" required></label> 
+        </fieldset>
+
+        <fieldset>
+        <legend>Location</legend>
+            <label><input type="radio" name="method" value="multi">Alaskan Cruise</label>
+            <label><input type="radio" name="method" value="multi">Australia</label>
+            <label><input type="radio" name="method" value="multi">Bahamas</label>
+            <label><input type="radio" name="method" value="multi">Caribbean Cruise</label>
+            <label><input type="radio" name="method" value="multi">European Tour</label>
+            <label><input type="radio" name="method" value="multi">Greece</label>
+            <label><input type="radio" name="method" value="single">Hawaiian Islands</label>
+            <label><input type="radio" name="method" value="multi">Japan</label>
+            <label><input type="radio" name="method" value="multi">Maldives</label>
+            <label><input type="radio" name="method" value="multi">Mexico</label>
+            
+            
+        </fieldset>
+
+            
+         <fieldset>
+        <legend>Vacation Length</legend>
+            <label>Number of Days
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option> 
+            <option value="six">6</option> 
+            <option value="seven">7</option> 
+            <option value="Eight">8</option> 
+            <option value="Nine">9</option> 
+            <option value="Ten">10</option> 
+            <option value="Over Ten">10+</option> 
+            </select>
+            </label>
+            </fieldset>
+
+
+            <fieldset>
+        <legend>Ammenities Needed</legend>
+            <label><input type="checkbox" name="hotel" value="chosen"> Hotel/Resort</label>
+            <label><input type="checkbox" name="car" value="chosen"> Rental Car</label>
+            <label><input type="checkbox" name="public transport" value="chosen"> Public Transportation Pass</label>
+            <label><input type="checkbox" name="excursions" value="chosen"> Excursions</label>
+                <label><input type="checkbox" name="food" value="chosen"> Food Recommendations/Reservations</label>
+        </fieldset>
+
+            <label> Special requests or questions? Leave them below and we will email you back with answers within 1-2 business days.
+            <textarea name="comments"></textarea>
+        </label>
+
+        <input type="submit" value="Book Event">  
+        </form>
+        </main>
+
+            
+        <!-- Start of page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Allison Brouse &bull; <a href="mailto:allib2003@gmail.com">Email Us</a></p>    
+        </footer>
+        
+    </body>
+</html>
